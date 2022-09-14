@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "alx.h"
+#include "main.h"
 
 /**
  * main - Check description
@@ -12,8 +12,8 @@ char word[9] = "_putchar";
 int i;
 
 for (i = 0; i < 9; i++)
-putchar(word[i]);
-putchar('\n');
+_putchar(word[i]);
+_putchar('\n');
 
 return (0);
 }
