@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * print_listint - function with one argument
+ * print_list_t - function with one argument
  * @h: pointer to struct
  *
  * Description: prints all the elements of a list
  * Return: number of nodes
  */
-size_t print_listint(const listint_t *h)
+size_t print_list_t(const list_t *h)
 {
   int count = 0;
 
