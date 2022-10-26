@@ -33,7 +33,7 @@ while (temp->next != NULL)
 {
 temp = temp->next;
 }
-emp->next = new;
+temp->next = new;
 }
 
 return (*head);
